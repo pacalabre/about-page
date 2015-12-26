@@ -2,20 +2,16 @@ section {
   overflow: auto;
 }
 
-.home, .projects {
+/* Fixed Background Sections */
+.home, .projects, .resume{
   background-repeat: none;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
 }
 
-.main-section-about, .projects, .resume, .contact {
-  background-repeat: none;
-  background-size: cover;
-  background-position: center center;
-}
-
-.main-section-about, .main-section-projects, .main-section-resume, .main-section-contact {
+/* Styling of Headers for Each Section */
+.main-section-about, .main-section-projects, .main-section-resume, .main-section-goals {
   font-family: oswald;
   font-size: 65px;
   color: white;
@@ -23,11 +19,12 @@ section {
   padding: .7em .7em .7em 1.5em;
 }
 
-/* Header Styling */
+/* Home Background Image */
 .home {
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg");
 }
 
+/* Headshot Styling and Position */
 .headshot {
   border-radius: 50%;
   height: 250px;
@@ -37,10 +34,12 @@ section {
   margin-top: -15em;
 }
 
+/* Container for Headshot and Title */
 .section-header {
   margin: 15em 10em 17em 20%;
 }
 
+/* Styling of Title "Paul Calabrese" */
 .section-header-h1 {
   font-family: oswald;
   font-size: 65px;
@@ -48,6 +47,7 @@ section {
   margin-bottom: -10px;
 }
 
+/* Styling of Title "Front-end Dev, Seattle, WA" */
 .section-header-h2 {
   font-family: oswald;
   color: white;
@@ -99,6 +99,7 @@ section {
   background-color: #2f3f51;
 }
 
+/* Reusable Class */
 .text {
   font-family: oswald;
   font-size: 35px;
@@ -113,38 +114,20 @@ section {
 
 .main-projects-links {
   padding: 0px 0px 40px 0px;
-  margin: 20px 5px 10px 6.25%;
+  margin: 20px auto 10px 30%;
 }
 
-/* Skills Page */
+/* Projects Background */
 .projects {
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg");
 }
 
-.skills-ul {
-  font-family: oswald;
-  font-size: 40px;
-  margin: -3em auto auto auto;
-  padding: 6em;
-  list-style-type: none;
-}
-
-.skills-ul-li {
-  font-size: 160px;
-  margin-top: -.25em;
-  margin-left: -.5em;
-}
-
-/* Resume Page */
+/* Resume Background */
 .resume {
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg");
 }
 
-.main-section-resume {
-  margin-top: 0px;
-  padding-left: 1.275em;
-}
-
+/* Resume Styling */
 .resume-body {
   color: white;
   background-color: black;
@@ -156,14 +139,11 @@ section {
   margin: 7%;
 }
 
-/* Contact Me Page */
-.contact {
+/* GA and My Goals */
+.goals {
   background-color: #232323;
 }
 
-.contact-form {
-  margin: 5% 15%;
-}
 
 /* Footer */
 .footer {

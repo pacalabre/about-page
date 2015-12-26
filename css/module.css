@@ -11,6 +11,10 @@ section {
   color: white;
 }
 
+.small-txt {
+  font-size: 25px;
+}
+
 .text-box {
   color: white;
   background-color: black;
@@ -127,6 +131,12 @@ section {
 .projects {
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg");
 }
+
+.project-text-box {
+  margin-top: -1em;
+}
+
+/* Project Text Box Positioning */
 
 /* Resume Background */
 .resume {

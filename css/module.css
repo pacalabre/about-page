@@ -1,5 +1,21 @@
+/*Clear Fix */
 section {
   overflow: auto;
+}
+
+/* Reusable Classes */
+.text {
+  font-family: oswald;
+  font-size: 35px;
+  margin: 5% 7%;
+  color: white;
+}
+
+.text-box {
+  color: white;
+  background-color: black;
+  opacity: .9;
+  margin: 7%;
 }
 
 /* Fixed Background Sections */
@@ -11,7 +27,7 @@ section {
 }
 
 /* Styling of Headers for Each Section */
-.main-section-about, .main-section-projects, .main-section-resume, .main-section-goals {
+.main-section-about, .main-section-projects, .main-section-resume, .main-section-goals, .main-section-resources {
   font-family: oswald;
   font-size: 65px;
   color: white;
@@ -54,7 +70,6 @@ section {
 }
 
 /* Nav Styling */
-
 .nav {
   background-color: #232323;
   text-align: center;
@@ -86,7 +101,6 @@ section {
 .nav-ul-social {
   margin: -2em 0px 0px -70px;
   display: inline-block;
-
 }
 
 .nav-ul-social-img {
@@ -99,17 +113,9 @@ section {
   background-color: #2f3f51;
 }
 
-/* Reusable Class */
-.text {
-  font-family: oswald;
-  font-size: 35px;
-  margin: 5% 7%;
-  color: white;
-}
-
 /* Resources */
 .resources{
-  background-color: red;
+  background-color: #2f3e41;
 }
 
 .main-projects-links {
@@ -128,13 +134,6 @@ section {
 }
 
 /* Resume Styling */
-.resume-body {
-  color: white;
-  background-color: black;
-  opacity: .9;
-  margin: 7%;
-}
-
 .resume-text {
   margin: 7%;
 }
@@ -143,7 +142,6 @@ section {
 .goals {
   background-color: #232323;
 }
-
 
 /* Footer */
 .footer {
@@ -166,7 +164,7 @@ section {
     margin-left: 4em;
     margin-top: 5em;
     }
-  }
+}
 
 @media only screen and (max-width: 805px) {
   .headshot {
@@ -179,14 +177,14 @@ section {
 
   .skills-ul-li {
     font-size: 100px;
-    }
   }
+}
 
 @media only screen and (max-width: 767px) {
   .main-projects-links {
     margin-left: 15%;
-    }
   }
+}
 
 @media only screen and (max-width: 578px) {
   .section-header {
@@ -202,13 +200,14 @@ section {
   }
 
   .skills-ul-li {
-    font-size: 60px; }
+    font-size: 60px;
   }
+}
 
 @media only screen and (max-width: 500px) {
   .home {
     background-attachment: scroll;
-     }
+  }
 
   .section-header {
     margin-left: 10%;
@@ -216,5 +215,5 @@ section {
 
   .main-section-projects, .main-section-resume, .main-section-contact {
     padding-left: .5em;
-    }
   }
+}

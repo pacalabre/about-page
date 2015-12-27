@@ -12,7 +12,8 @@ section {
 }
 
 .small-txt {
-  font-size: 25px;
+  font-size: 30px;
+  font-family: benchnine;
 }
 
 .text-box {
@@ -122,9 +123,17 @@ section {
   background-color: #2f3e41;
 }
 
-.main-projects-links {
-  padding: 0px 0px 40px 0px;
-  margin: 20px auto 10px 30%;
+.resource-ul {
+  margin-top: -1.5em;
+}
+
+.resource-ul-li {
+  margin: -.5em 75px;
+  list-style-type: none;
+}
+
+.resource-p {
+  margin-top: .7em;
 }
 
 /* Projects Background */
@@ -132,20 +141,13 @@ section {
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg");
 }
 
+.main-projects-links {
+  padding: 0px 0px 40px 0px;
+  margin: 20px auto 10px 30%;
+}
+
 .project-text-box {
   margin-top: -1em;
-}
-
-/* Project Text Box Positioning */
-
-/* Resume Background */
-.resume {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg");
-}
-
-/* Resume Styling */
-.resume-text {
-  margin: 7%;
 }
 
 /* GA and My Goals */

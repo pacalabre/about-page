@@ -88,7 +88,7 @@ section {
 .nav-ul {
   list-style-type: none;
   display: inline-block;
-  padding: 8.5px 10px 5px;
+  padding: 8.5px 10px 5px 0%;
 }
 
 .nav-ul-li:hover {
@@ -104,6 +104,11 @@ section {
 }
 
 .nav-ul-social {
+  display:inline-block;
+  margin: 4em 5px 5px 40%;
+}
+
+.nav-ul-social-li {
   margin: -2em 0px 0px -70px;
   display: inline-block;
 }
@@ -162,7 +167,6 @@ section {
   height: 100px;
   text-align: center;
   padding: 0px 0px 2em 0px;
-  margin-top: 0em;
 }
 
 /* Media Queries */
@@ -195,6 +199,11 @@ section {
 @media only screen and (max-width: 767px) {
   .main-projects-links {
     margin-left: 15%;
+  }
+
+  .nav-ul-social {
+    display: block;
+    margin: 20px 5px;
   }
 }
 

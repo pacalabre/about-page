@@ -92,11 +92,11 @@ section {
 }
 
 .nav-ul-li:hover {
-  color: #2f3f51;
+  color: white;
 }
 
 .nav-ul-li {
-  color: white;
+  color: #999;
   font-family: fjalla one;
   font-size: 20px;
   display: inline;

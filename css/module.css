@@ -19,7 +19,7 @@ section {
 .text-box {
   color: white;
   background-color: black;
-  opacity: .9;
+  opacity: .6;
   margin: 7%;
 }
 
@@ -92,7 +92,7 @@ section {
 }
 
 .nav-ul-li:hover {
-  color:blue;
+  color: #2f3f51;
 }
 
 .nav-ul-li {
